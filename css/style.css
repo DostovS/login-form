@@ -39,20 +39,16 @@ body {
 .form-control label {
   display: inline-block;
   margin-bottom: 5px;
-  font-family: sans-serif;
-  letter-spacing: 1px;
-  font-size: 1rem;
-
+  font-size: 1.1rem;
 }
 .form-control input {
   border: 2px solid #f0f0f0;
   border-radius: 4px;
   display: block;
   font-family: inherit;
-  font-size: 14px;
+  font-style: 14px;
   padding: 10px;
   width: 100%;
-
   font-size: 1rem;
 }
 .form-control input:focus {
@@ -95,7 +91,6 @@ body {
   margin-top: 20px;
   width: 100%;
   cursor: pointer;
-  font-weight: 700;
 }
 .gradient {
 
