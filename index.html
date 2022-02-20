@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Form Validation</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Ro'yhatdan o'tish</h2>
+    </div>
+    <form id="form" class="form">
+      <div class="form-control">
+        <label for="username">Ismingiz</label>
+        <input type="text" placeholder="Ism" id="username">
+        <i class='bx bxs-check-circle'></i>
+        <i class='bx bxs-error-circle' ></i>
+        <small>Noto'g'ri ma'lumot kiritildi</small>
+      </div>
+      <div class="form-control">
+        <label for="email">Elektron pochtangiz</label>
+        <input type="email" placeholder="example@gmail.com" id="email">
+        <i class='bx bxs-check-circle'></i>
+        <i class='bx bxs-error-circle' ></i>
+        <small>Error message </small>
+      </div>
+      <div class="form-control">
+        <label for="password">Parol kiriting</label>
+        <input type="password" placeholder="Parol" id="password">
+        <i class='bx bxs-check-circle'></i>
+        <i class='bx bxs-error-circle' ></i>
+        <small>Error message </small>
+      </div>
+      <div class="form-control">
+        <label for="password">Parolni takrorlang</label>
+        <input type="password" placeholder="Takroriy parol" id="password2">
+        <i class='bx bxs-check-circle'></i>
+        <i class='bx bxs-error-circle' ></i>
+        <small>Error message </small>
+      </div>
+      <button class="gradient">Submit</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
